@@ -1,0 +1,137 @@
+.stock-search {
+    width: 60%;
+    margin-top: 140px;
+    margin-left: 260px;
+    padding: 15px;
+    background-color: whitesmoke; 
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; 
+}
+
+.stock-search:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.search-input {
+    width: calc(100% - 100px);
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 16px; 
+}
+
+.search-button {
+    padding: 8px 12px;
+    background-color:  orange; 
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    font-weight: bolder;
+    border-color: orange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search-button:hover {
+   color: black; 
+    transform: scale(1.05); 
+    color: black;
+    border-color: orange;
+    font-weight: bold;
+}
+
+.error-message {
+    color: #e74c3c; 
+    font-weight: bold; 
+}
+
+.suggestions-list {
+    list-style: none; 
+    padding: 0;
+    margin: 5px 0;
+    border: 1px solid #d1d5db; 
+    border-radius: 4px;
+    max-height: 200px;    overflow-y: auto; 
+    background-color: #ffffff;    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+    padding: 8px; 
+    cursor: pointer;
+    transition: background-color 0.2s ease; 
+}
+
+.suggestion-item:hover {
+    background-color: #f3f4f6; 
+}
+
+.stock-chart {
+    margin-top: 20px; 
+}
+
+h2 {
+    color: #1e3a8a; 
+    margin-bottom: 10px; 
+}
+.add-watchlist-button
+{
+    color:white;
+    background-color:red ;
+    border-radius: 3px;
+    padding: 5px 5px;
+    height: 60px;
+    width: 180px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.add-watchlist-button:hover{
+    background-color:  white;
+    color: red;
+    border-color: red;
+    transform: .2s;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.styled-heading {
+    font-size: 3.5rem; 
+    font-weight: bold; 
+    color: #2b2b2b; 
+    line-height: 1.2; 
+    margin: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    text-align: left;
+}
+
+.styled-heading::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    width: 5px;
+    height: 80%;
+    background-color: #007bff; 
+}
+
+.styled-heading span.highlight {
+    color: orange;
+}
+
+
+.stock-container h1 br {
+    display: none;            
+}
+
+@media (max-width: 768px) {
+    .stock-container h1 {
+        font-size: 2rem;      
+        padding: 0 20px;       
+    }
+}
+
+

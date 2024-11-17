@@ -1,0 +1,111 @@
+
+.head {
+    font-size: 2rem;
+    text-align: center;
+    color: orange;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+
+.categoryBtn {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    gap: 10px; 
+    margin-bottom: 20px;
+    justify-content: center; 
+}
+
+.categoryBtn button {
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categoryBtn button:hover {
+    background-color: #000000;
+    color: orange;
+}
+
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 50px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+
+.news-item {
+    background: black;
+    border: 1px solid #000000;
+    padding: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    height: 800px;
+    
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+
+.news-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.news-item img {
+    max-width: 80%; 
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+
+.news-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: orange;
+}
+
+
+.news-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bolder;
+}
+
+.news-item a:hover {
+    background-color: white;
+    transform: scale(1.05);
+    color: red;
+}
+
+
+@media (max-width: 768px) {
+    .categoryBtn {
+        grid-template-columns: 1fr; 
+    }
+}

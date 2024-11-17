@@ -1,0 +1,89 @@
+.input-group {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+.input-group input {
+  flex: 1; 
+  margin-right: 10px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+.input-group input:last-child {
+  margin-right: 0; 
+}
+
+.input-group button {
+  padding: 10px 20px; 
+  background-color: orange; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.input-group button:hover {
+  color: black; 
+}
+
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+th, td {
+  padding: 12px; 
+  text-align: left; 
+  border-bottom: 1px solid #ccc; 
+}
+
+th {
+  background-color: orange; 
+  color: white; 
+}
+
+tbody tr:last-child td {
+  border-bottom: none; 
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2; 
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+tbody tr td {
+  font-size: 14px; 
+}
+
+
+thead tr:first-child th:first-child {
+  border-top-left-radius: 10px; 
+}
+
+thead tr:first-child th:last-child {
+  border-top-right-radius: 10px; 
+}
+
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 10px; 
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px; 
+}
+.head{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}

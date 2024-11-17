@@ -1,0 +1,45 @@
+.watchlist-page h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+
+.watchlist-page table {
+    width: 50%; 
+    margin: 0 auto; 
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.watchlist-page table th, .watchlist-page table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.watchlist-page table th {
+    background-color: #1e3a8a;
+    color: white;
+    font-weight: bold;
+}
+
+.watchlist-page table tr:hover {
+    background-color: rgba(30, 58, 138, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .watchlist-page table {
+        width: 90%; 
+        font-size: 14px;
+    }
+}
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
